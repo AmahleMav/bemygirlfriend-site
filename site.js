@@ -1,12 +1,8 @@
 function sayYes() {
 
-    // hide first page
     document.getElementById("mainCard").classList.add("hidden");
-
-    // show yes page
     document.getElementById("yesPage").classList.remove("hidden");
 
-    // CONFETTI 🎉
     confetti({
         particleCount: 150,
         spread: 90,
