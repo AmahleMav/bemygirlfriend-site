@@ -1,0 +1,73 @@
+body {
+    background: #f8dede;
+    font-family: Arial;
+    text-align: center;
+    margin: 0;
+}
+
+.mainContainer {
+    padding: 20px;
+}
+
+.cardBox {
+    background: white;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 80px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #c62828;
+}
+
+.mainGif {
+    width: 100%;
+    max-width: 250px;
+    margin: 20px 0;
+}
+
+.yesBtn {
+    background: pink;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 25px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.noBtn {
+    background: #eee;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 25px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.cuteText {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Mobile friendly */
+
+@media (max-width:600px) {
+
+    .cardBox {
+        width: 90%;
+        margin-top: 120px;
+    }
+
+    .mainGif {
+        max-width: 200px;
+    }
+}

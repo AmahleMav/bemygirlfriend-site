@@ -1,0 +1,36 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Be My Girlfriend";
+}
+
+<div class="cardBox" id="mainCard">
+
+    <h1>Unathi, will you be my girlfriend? 🥺</h1>
+
+    <img src="/images/pussgif.gif" class="mainGif" />
+
+    <br />
+
+    <button class="yesBtn" onclick="sayYes()">YES 🥰</button>
+
+    <button class="noBtn"
+            onclick="moveNo(this)"
+            ontouchstart="moveNo(this)">
+        NO😭
+    </button>
+
+</div>
+
+
+<div class="cardBox hidden" id="yesPage">
+
+    <h1>YAYYYY!!!! Guess what now you're stuck with me 😈❤️ </h1>
+
+    <img src="/images/celebrate.gif" class="mainGif" />
+
+    <p class="cuteText">
+        You just made me the happiest man alive ❤️
+    </p>
+
+</div>
