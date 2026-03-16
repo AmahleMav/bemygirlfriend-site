@@ -5,10 +5,6 @@ body {
     margin: 0;
 }
 
-.mainContainer {
-    padding: 20px;
-}
-
 .cardBox {
     background: white;
     max-width: 400px;
@@ -58,7 +54,7 @@ h1 {
     display: none;
 }
 
-/* Mobile friendly */
+/* Mobile */
 
 @media (max-width:600px) {
 
