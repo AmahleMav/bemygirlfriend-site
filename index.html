@@ -1,36 +1,53 @@
-@page
-@model IndexModel
-@{
-    ViewData["Title"] = "Be My Girlfriend";
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Be My Girlfriend 💕</title>
+
+<link rel="stylesheet" href="site.css">
+
+<!-- Confetti -->
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+<script src="site.js" defer></script>
+
+</head>
+
+<body>
 
 <div class="cardBox" id="mainCard">
 
-    <h1>Unathi, will you be my girlfriend? 🥺</h1>
+<h1>Unathi, will you be my girlfriend? 🥺</h1>
 
-    <img src="/images/pussgif.gif" class="mainGif" />
+<img src="images/pussgif.gif" class="mainGif">
 
-    <br />
+<br>
 
-    <button class="yesBtn" onclick="sayYes()">YES 🥰</button>
+<button class="yesBtn" onclick="sayYes()">YES 🥰</button>
 
-    <button class="noBtn"
-            onclick="moveNo(this)"
-            ontouchstart="moveNo(this)">
-        NO😭
-    </button>
+<button class="noBtn"
+onclick="moveNo(this)"
+ontouchstart="moveNo(this)">
+NO 😭
+</button>
 
 </div>
 
 
 <div class="cardBox hidden" id="yesPage">
 
-    <h1>YAYYYY!!!! Guess what now you're stuck with me 😈❤️ </h1>
+<h1>YAYYYY!!!! Guess what now you're stuck with me 😈❤️</h1>
 
-    <img src="/images/celebrate.gif" class="mainGif" />
+<img src="images/celebrate.gif" class="mainGif">
 
-    <p class="cuteText">
-        You just made me the happiest man alive ❤️
-    </p>
+<p class="cuteText">
+You just made me the happiest man alive ❤️
+</p>
 
 </div>
+
+</body>
+</html>
